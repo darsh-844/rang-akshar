@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900">
+<rect width="900" height="900" fill="#e8ddce"/>
+<circle cx="450" cy="450" r="330" fill="none" stroke="#352d26" stroke-opacity=".18" stroke-width="2"/>
+<circle cx="450" cy="450" r="205" fill="none" stroke="#352d26" stroke-opacity=".12" stroke-width="2"/>
+<text x="450" y="430" text-anchor="middle" font-family="serif" font-size="120" fill="#a65e40">अ</text>
+<text x="450" y="525" text-anchor="middle" font-family="serif" font-size="34" fill="#756d64">रचना की छवि</text>
+</svg>
