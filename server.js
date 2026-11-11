@@ -4,13 +4,13 @@ const app = express();
 const fs = require('fs');
 
 // FS MODULE
-const index=fs.readFileSync("index.html", "utf-8");
-const aboutPage = fs.readFileSync("about.html", "utf-8");
-const authorsPage = fs.readFileSync("authors.html", "utf-8");
-const kanchanPage = fs.readFileSync("author-kanchan.html", "utf-8");
-const garimaPage = fs.readFileSync("author-garima.html", "utf-8");
-const contactPage = fs.readFileSync("contact.html", "utf-8");
-const writingsPage = fs.readFileSync("writings.html", "utf-8");
+const index=fs.readFileSync("./index.html", "utf-8");
+const aboutPage = fs.readFileSync("./about.html", "utf-8");
+const authorsPage = fs.readFileSync("./authors.html", "utf-8");
+const kanchanPage = fs.readFileSync("./author-kanchan.html", "utf-8");
+const garimaPage = fs.readFileSync("./author-garima.html", "utf-8");
+const contactPage = fs.readFileSync("./contact.html", "utf-8");
+const writingsPage = fs.readFileSync("./writings.html", "utf-8");
 
 // Middleware
 app.use(express.json());
